@@ -1,17 +1,4 @@
 {
-  "Product": {
-    "id": "int",
-    "name": "string"
-  },
-  "Country": {
-    "id": "int",
-    "name": "string"
-  },
-  "Company": {
-    "id": "int",
-    "name": "string",
-    "createdAt": "date"
-  },
   "Index": {
     "id": "int",
     "country": "Country",
@@ -25,6 +12,19 @@
     "index": "Index",
     "company": "Company",
     "cost": "int"
+  },
+  "Product": {
+    "id": "int",
+    "name": "string"
+  },
+  "Country": {
+    "id": "int",
+    "name": "string"
+  },
+  "Company": {
+    "id": "int",
+    "name": "string",
+    "createdAt": "date"
   }
 }
 
