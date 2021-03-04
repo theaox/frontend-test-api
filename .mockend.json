@@ -2,18 +2,18 @@
   "Product": {
     "id": "int",
     "name": "string",
-    "indexes": "Index[]"
+    "index": "Index[]"
   },
   "Country": {
     "id": "int",
     "name": "string",
-    "indexes": "Index[]"
+    "index": "Index[]"
   },
   "Company": {
     "id": "int",
     "name": "string",
     "createdAt": "date",
-    "contracts": "Contract[]"
+    "contract": "Contract[]"
   },
   "Index": {
     "id": "int",
@@ -22,7 +22,7 @@
     "visible": "boolean",
     "createdAt": "date",
     "product": "Product",
-    "contracts": "Contract[]"
+    "contract": "Contract[]"
   },
   "Contract": {
     "id": "int",
