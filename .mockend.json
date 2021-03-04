@@ -1,0 +1,30 @@
+{
+  "Index": {
+    "id": "int",
+    "country": "Country",
+    "published": "boolean",
+    "visible": "boolean",
+    "createdAt": "date",
+    "product": "Product"
+  },
+  "Product": {
+    "id": "int",
+    "name": "string"
+  },
+  "Country": {
+    "id": "int",
+    "name": "string"
+  },
+  "Company": {
+    "id": "int",
+    "name": "string",
+    "createdAt": "date"
+  },
+  "Contract": {
+    "id": "int",
+    "index": "Index",
+    "company": "Company",
+    "cost": "int"
+  }
+}
+
