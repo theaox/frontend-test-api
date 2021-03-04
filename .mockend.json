@@ -1,29 +1,33 @@
 {
   "Product": {
     "id": "int",
-    "name": "string"
+    "name": "string",
+    "indexes": "Index[]"
   },
   "Country": {
     "id": "int",
-    "name": "string"
+    "name": "string",
+    "indexes": "Index[]"
   },
   "Company": {
     "id": "int",
     "name": "string",
-    "createdAt": "date"
+    "createdAt": "date",
+    "contracts": "Contract[]"
   },
   "Index": {
     "id": "int",
-    "countries": "Country[]",
+    "country": "Country",
     "published": "boolean",
     "visible": "boolean",
     "createdAt": "date",
-    "products": "Product[]"
+    "product": "Product",
+    "contracts": "Contract[]"
   },
   "Contract": {
     "id": "int",
-    "indexes": "Index[]",
-    "companies": "Company[]",
+    "index": "Index",
+    "company": "Company",
     "cost": "int"
   }
 }
