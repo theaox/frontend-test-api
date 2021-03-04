@@ -14,16 +14,16 @@
   },
   "Index": {
     "id": "int",
-    "country": "Country[]",
+    "countries": "Country[]",
     "published": "boolean",
     "visible": "boolean",
     "createdAt": "date",
-    "product": "Product[]"
+    "products": "Product[]"
   },
   "Contract": {
     "id": "int",
-    "index": "Index[]",
-    "company": "Company[]",
+    "indexes": "Index[]",
+    "companies": "Company[]",
     "cost": "int"
   }
 }
